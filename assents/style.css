@@ -375,8 +375,7 @@ img {
     }
     
     .skills__img{
-        border-radius: 0.5rem;
-
+        display: none;
     }
 
     /* ==== Work==== */
@@ -424,6 +423,10 @@ img {
         border: 1.5px solid var(--second-color);
         outline: none;
         margin-bottom: var(--mb-2);
+    }
+
+    .contact__input:focus{
+      background: rgba(146,161,176,0.25);
     }
 
     .contact__button{
@@ -566,6 +569,12 @@ img {
       column-gap: 2rem;
       align-items: center;
       text-align: initial;
+    }
+
+    .skills__img{
+        border-radius: 0.5rem;
+        display: block;
+
     }
     
     .work__container {

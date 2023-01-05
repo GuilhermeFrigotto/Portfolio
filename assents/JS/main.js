@@ -42,6 +42,10 @@ sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200});
 
 // ALERT
 
-function sent(){
-    alert ("Message sent")
+function openAlert(){
+    swal({
+        title: "Sent!",
+        text: "Message sent successfully!",
+        icon: "success",
+      });
 }
